@@ -28,7 +28,7 @@ app.layout = html.Div(
     children=[
         # Title
         html.Div(
-            style={"textAlign": "center", "padding": "20px", "borderBottom": "1px solid #444"},
+            style={"textAlign": "left", "padding": "20px", "borderBottom": "1px solid #444"},
             children=[
                 html.H1("Ethereum Ecosystem", style={"margin": "0", "fontSize": "2rem", "fontWeight": "normal"})
             ]
@@ -40,7 +40,7 @@ app.layout = html.Div(
             children=[
                 # Treemap Column
                 html.Div(
-                    style={"width": "70%", "paddingRight": "20px"},
+                    style={"width": "50%", "paddingRight": "20px"},
                     children=[
                         dcc.Graph(id='treemap-chart', style={"height": "800px"})
                     ]
@@ -48,7 +48,7 @@ app.layout = html.Div(
                 
                 # Summary Column
                 html.Div(
-                    style={"width": "30%", "paddingLeft": "20px", "backgroundColor": "#222", "borderRadius": "10px"},
+                    style={"width": "50%", "paddingLeft": "20px", "backgroundColor": "#222", "borderRadius": "10px"},
                     children=[
                         html.H3(id="summary-title", style={"textAlign": "center", "fontSize": "1.5rem", "fontWeight": "normal"}, children="Data Summary"),
                         html.Div(
