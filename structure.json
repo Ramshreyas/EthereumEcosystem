@@ -1,0 +1,32 @@
+{
+    "Protocol Layer": {
+        "Ethereum Mainnet": {
+            "Consensus Layer": {
+                "Proof of Stake": {}
+            },
+            "Execution Layer": {
+                "EVM": {
+                    "Smart Contracts": {
+                        "ERC-20": {},
+                        "ERC-721": {}
+                    }
+                }
+            }
+        }
+    },
+    "Application Layer": {
+        "DeFi": {
+            "Uniswap": {},
+            "Aave": {}
+        }
+    },
+    "Infrastructure Layer": {
+        "Nodes": {
+            "Geth": {},
+            "Parity": {}
+        },
+        "Oracles": {
+            "Chainlink": {}
+        }
+    }
+}

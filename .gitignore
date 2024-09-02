@@ -1,2 +1,4 @@
 # Conda
 .conda/
+__pycache__/summary.cpython-312.pyc
+__pycache__/treemap.cpython-312.pyc
