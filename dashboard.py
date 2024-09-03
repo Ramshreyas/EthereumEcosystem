@@ -1,6 +1,6 @@
 from dash import Dash, dcc, html, Input, Output
 from treemap import visualize_stack_plotly
-from summary import generate_summary, validate_structure_and_data
+from summary import generate_summary, display_aggregated_data, validate_structure_and_data
 import json
 
 # Load structure and data from JSON files
@@ -77,7 +77,12 @@ def update_treemap(_):
     [Input('treemap-chart', 'clickData')]
 )
 def display_node_info(clickData):
-    return generate_summary(clickData, structure, data)
+    if clickData and 'label' in clickData['points'][0]:
+        node_name = clickData['points'][0]['label']
+        aggregated_data = generate_summary(node_name, structure, data)
+        table = display_aggregated_data(aggregated_data)
+        return node_name, table
+    return "", "Click through the chart for aggregated metrics"
 
 # Run the app
 if __name__ == '__main__':

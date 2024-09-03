@@ -1,75 +1,37 @@
 {
-    "Protocol Layer": {
-        "Ethereum Mainnet": {
-            "metrics": {
-                "network_size": 10000,
-                "transaction_volume": 500000
-            },
-            "Consensus Layer": {
-                "Proof of Stake": {
-                    "metrics": {
-                        "validators": 30000,
-                        "staked_eth": 5000000
-                    }
-                }
-            },
-            "Execution Layer": {
-                "EVM": {
-                    "metrics": {
-                        "gas_used": 80000000,
-                        "transactions": 2000000
-                    },
-                    "Smart Contracts": {
-                        "ERC-20": {
-                            "metrics": {
-                                "contract_count": 5000
-                            }
-                        },
-                        "ERC-721": {
-                            "metrics": {
-                                "contract_count": 3000
-                            }
-                        }
-                    }
-                }
-            }
-        }
+    "Ethereum Mainnet": {
+        "network_size": 10000,
+        "transaction_volume": 500000
     },
-    "Application Layer": {
-        "DeFi": {
-            "Uniswap": {
-                "metrics": {
-                    "liquidity_pools": 200,
-                    "trading_volume": 100000000
-                }
-            },
-            "Aave": {
-                "metrics": {
-                    "borrowers": 10000,
-                    "loans_issued": 50000
-                }
-            }
-        }
+    "Proof of Stake": {
+        "validators": 30000,
+        "staked_eth": 5000000
     },
-    "Infrastructure Layer": {
-        "Nodes": {
-            "Geth": {
-                "metrics": {
-                    "active_nodes": 5000
-                }
-            },
-            "Parity": {
-                "metrics": {
-                    "active_nodes": 2000
-                }
-            }
-        },
-        "Oracles": {
-            "Chainlink": {
-                "metrics": {
-                    "oracle_calls": 100000
-                }
-            }
-        }
+    "EVM": {
+        "gas_used": 80000000,
+        "transactions": 2000000
+    },
+    "ERC-20": {
+        "contract_count": 5000
+    },
+    "ERC-721": {
+        "contract_count": 3000
+    },
+    "Uniswap": {
+        "liquidity_pools": 200,
+        "trading_volume": 100000000
+    },
+    "Aave": {
+        "borrowers": 10000,
+        "loans_issued": 50000
+    },
+    "Geth": {
+        "active_nodes": 5000
+    },
+    "Parity": {
+        "active_nodes": 2000
+    },
+    "Chainlink": {
+        "oracle_calls": 100000
     }
 }
