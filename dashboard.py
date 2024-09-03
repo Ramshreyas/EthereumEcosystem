@@ -91,7 +91,7 @@ def display_node_info(clickData):
         table = display_aggregated_data(aggregated_data)
         return node_name, table
     
-    return "Data Summary", "Click on a node to see details here."
+    return "", "Click the chart to see metrics and reports"
 
 # Run the app
 if __name__ == '__main__':
