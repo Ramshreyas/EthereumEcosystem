@@ -1,15 +1,16 @@
 from dash import Dash, dcc, html, Input, Output
 from treemap import visualize_stack_plotly
 from summary import generate_summary, display_aggregated_data, validate_structure_and_data
+from reports.reports import get_custom_report
 import json
 
-# Load structure and data from JSON files
+# Load structure and data from JSON files in the data folder
 def load_structure():
-    with open("structure.json", "r") as f:
+    with open("data/structure.json", "r") as f:
         return json.load(f)
 
 def load_data():
-    with open("data.json", "r") as f:
+    with open("data/data.json", "r") as f:
         return json.load(f)
 
 # Load structure and data
@@ -79,10 +80,18 @@ def update_treemap(_):
 def display_node_info(clickData):
     if clickData and 'label' in clickData['points'][0]:
         node_name = clickData['points'][0]['label']
+        
+        # Check for a custom report first
+        custom_report = get_custom_report(node_name, structure, data)
+        if custom_report:
+            return node_name, custom_report
+        
+        # If no custom report, fall back to the aggregation
         aggregated_data = generate_summary(node_name, structure, data)
         table = display_aggregated_data(aggregated_data)
         return node_name, table
-    return "", "Click through the chart for aggregated metrics"
+    
+    return "Data Summary", "Click on a node to see details here."
 
 # Run the app
 if __name__ == '__main__':

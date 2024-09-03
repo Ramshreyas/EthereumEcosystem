@@ -2,3 +2,9 @@
 .conda/
 __pycache__/summary.cpython-312.pyc
 __pycache__/treemap.cpython-312.pyc
+__pycache__/reports.cpython-312.pyc
+reports/__pycache__/__init__.cpython-312.pyc
+reports/__pycache__/defi.cpython-312.pyc
+reports/__pycache__/protocol_layer.cpython-312.pyc
+reports/__pycache__/reports.cpython-312.pyc
+reports/__pycache__/uniswap.cpython-312.pyc
