@@ -1,3 +1,5 @@
+import importlib
+import os
 from dash import html
 
 # A dictionary to hold the custom report functions
@@ -17,38 +19,13 @@ def get_custom_report(node_name, structure, data):
         return report_func(structure, data)
     return None
 
-# Example custom report for the "Protocol Layer" node
-@register_report("Protocol Layer")
-def protocol_layer_report(structure, data):
-    # More detailed visualization for the Protocol Layer
-    return html.Div([
-        html.H4("Protocol Layer Report"),
-        html.P("Network Size: 10,000 nodes"),
-        html.P("Transaction Volume: 500,000 transactions"),
-        # Example of adding more detailed insights and components
-        html.P("This report could include charts, graphs, and other insights relevant to the Protocol Layer.")
-    ])
+# Function to dynamically discover and import all report modules
+def register_all_reports():
+    reports_directory = os.path.dirname(__file__)
+    for filename in os.listdir(reports_directory):
+        if filename.endswith(".py") and filename not in ["reports.py", "__init__.py"]:
+            module_name = f"reports.{filename[:-3]}"
+            importlib.import_module(module_name)
 
-# Example custom report for the "DeFi" node
-@register_report("DeFi")
-def defi_report(structure, data):
-    # More detailed visualization for the DeFi node
-    return html.Div([
-        html.H4("DeFi Report"),
-        html.P("Liquidity Pools: 200"),
-        html.P("Total Trading Volume: $100,000,000"),
-        # Example of adding more detailed insights and components
-        html.P("This report could include market analysis, risk assessments, and trending DeFi projects.")
-    ])
-
-# Example custom report for the "Uniswap" node
-@register_report("Uniswap")
-def uniswap_report(structure, data):
-    # More detailed visualization for Uniswap
-    return html.Div([
-        html.H4("Uniswap Report"),
-        html.P("Active Liquidity Pools: 150"),
-        html.P("Total Volume Locked: $50,000,000"),
-        # Example of adding more detailed insights and components
-        html.P("This report could include liquidity trends, fee distribution, and user adoption metrics.")
-    ])
+# Call the function to register all reports
+register_all_reports()
