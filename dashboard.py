@@ -97,7 +97,7 @@ def update_dashboard(selected_structure):
     title = [key for key, value in ecosystems.items() if value == selected_structure][0]
     
     # Return title and figure separately (not as an array)
-    return title, treemap_fig
+    return "Ethereum Ecosystem Dashboard", treemap_fig
 
 
 # Dash callback to update the data summary based on the clicked node
