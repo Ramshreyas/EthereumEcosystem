@@ -41,7 +41,7 @@ app.layout = html.Div(
                 dcc.Dropdown(
                     id='ecosystem-dropdown',
                     options=[{"label": label, "value": filename} for label, filename in ecosystems.items()],
-                    value='financial_structure.json',  # Default selection
+                    value='protocol_structure.json',  # Default selection
                     clearable=False,
                     style={"backgroundColor": "#2222", "color": "black", "width": "300px", "padding-top": "10px"},
                     className="dropdown-class"
