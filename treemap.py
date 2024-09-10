@@ -48,7 +48,7 @@ def visualize_stack_plotly(structure, data):
         labels=labels,
         parents=parents,
         ids=ids,
-        textinfo="label+value+percent parent+percent entry",
+        textinfo="label+value+percent parent",
         textfont=dict(size=18, color="white"),  # White text color
     ))
     

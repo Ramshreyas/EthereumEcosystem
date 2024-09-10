@@ -1,32 +1,42 @@
 {
     "Protocol Layer": {
-        "Ethereum Mainnet": {
-            "Consensus Layer": {
-                "Proof of Stake": {}
+      "Ethereum Mainnet": {
+        "Execution Layer": {
+          "EVM": {
+            "ERC-20": {},
+            "ERC-721": {},
+            "DeFi": {
+              "DEX": {},
+              "Lending": {
+                "CDPs": {},
+                "Decentralized Stables": {}
+              },
+              "Synthetics": {},
+              "Derivatives": {},
+              "Staking": {
+                "LST": {},
+                "Restaking": {},
+                "Liquid Restaking": {}
+              },
+              "Insurance": {},
+              "Payments": {},
+              "Prediction Markets": {}
             },
-            "Execution Layer": {
-                "EVM": {
-                    "Smart Contracts": {
-                        "ERC-20": {},
-                        "ERC-721": {}
-                    }
-                }
-            }
-        }
-    },
-    "Application Layer": {
-        "DeFi": {
-            "Uniswap": {},
-            "Aave": {}
-        }
-    },
-    "Infrastructure Layer": {
-        "Nodes": {
-            "Geth": {},
-            "Parity": {}
+            "Infrastructure": {
+              "Bridges": {},
+              "Oracles": {}
+            },
+            "Decentralized Identity": {},
+            "Gaming": {},
+            "Social Networks": {}
+          }
         },
-        "Oracles": {
-            "Chainlink": {}
+        "Consensus Layer": {
+            "Nodes": {},
+            "Tooling": {},
+            "Governance": {}
         }
+      }
     }
-}
+  }
+  

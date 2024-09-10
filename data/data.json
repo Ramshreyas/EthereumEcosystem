@@ -1,95 +1,200 @@
 {
-    "Ethereum Mainnet": {
-        "network_size": 10000,
-        "transaction_volume": 500000,
-        "funding": 20000000
+    "Protocol Layer": {
+      "tvl": 2000000000,
+      "users": 1500000
     },
-    "Proof of Stake": {
-        "validators": 30000,
-        "staked_eth": 5000000,
-        "funding": 1000000
+    "Ethereum Mainnet": {
+      "tvl": 1500000000,
+      "users": 1200000
+    },
+    "Execution Layer": {
+      "tvl": 1400000000,
+      "transactions": 30000000
     },
     "EVM": {
-        "gas_used": 80000000,
-        "transactions": 2000000,
-        "funding": 5000000
+      "tvl": 1200000000,
+      "gas_used": 80000000
     },
     "ERC-20": {
-        "contract_count": 5000,
-        "funding": 300000
+      "tvl": 500000000,
+      "contracts": 30000
     },
     "ERC-721": {
-        "contract_count": 3000,
-        "funding": 200000
+      "tvl": 200000000,
+      "contracts": 15000
     },
-    "Uniswap": {
-        "liquidity_pools": 200,
-        "trading_volume": 100000000,
-        "funding": 15000000
+    "DeFi": {
+      "tvl": 900000000,
+      "protocols": 100
     },
-    "Aave": {
-        "borrowers": 10000,
-        "loans_issued": 50000,
-        "funding": 12000000
+    "DEX": {
+      "tvl": 400000000,
+      "volume": 1200000000,
+      "protocols": 30
     },
-    "Geth": {
-        "active_nodes": 5000,
-        "funding": 8000000
+    "Lending": {
+      "tvl": 300000000,
+      "loans_issued": 50000
     },
-    "Parity": {
-        "active_nodes": 2000,
-        "funding": 5000000
+    "CDPs": {
+      "tvl": 100000000,
+      "users": 50000
     },
-    "Chainlink": {
-        "oracle_calls": 100000,
-        "funding": 10000000
+    "Decentralized Stables": {
+      "tvl": 200000000,
+      "supply": 100000000
     },
-    "Hardhat": {
-        "funding": 3000000
+    "Synthetics": {
+      "tvl": 100000000,
+      "assets_tokenized": 200
     },
-    "Remix": {
-        "funding": 2500000
+    "Derivatives": {
+      "tvl": 70000000,
+      "contracts": 500
+    },
+    "Staking": {
+      "tvl": 600000000,
+      "validators": 500000
+    },
+    "LST": {
+      "tvl": 100000000,
+      "tokens_issued": 200000
+    },
+    "Restaking": {
+      "tvl": 50000000,
+      "validators": 10000
+    },
+    "Liquid Restaking": {
+      "tvl": 30000000,
+      "validators": 8000
+    },
+    "Insurance": {
+      "tvl": 20000000,
+      "policies_issued": 2000
+    },
+    "Payments": {
+      "tvl": 100000000,
+      "transactions": 5000000
+    },
+    "Infrastructure": {
+      "tvl": 250000000,
+      "protocols": 10
+    },
+    "Bridges": {
+      "tvl": 150000000,
+      "bridges_active": 5
+    },
+    "Oracles": {
+      "tvl": 100000000,
+      "oracle_calls": 5000000
+    },
+    "Prediction Markets": {
+      "tvl": 10000000,
+      "markets_active": 50
+    },
+    "Decentralized Identity": {
+      "tvl": 5000000,
+      "identities_verified": 10000
+    },
+    "Gaming": {
+      "tvl": 30000000,
+      "games_active": 200
+    },
+    "Social Networks": {
+      "tvl": 20000000,
+      "users": 100000
+    },
+    "Consensus Layer": {
+      "tvl": 300000000,
+      "validators": 400000,
+      "transactions_finalized": 25000000
+    },
+    "Nodes": {
+      "active_nodes": 10000,
+      "uptime_percentage": 99.9,
+      "countries_deployed": 50
+    },
+    "Tooling": {
+      "tools_available": 25,
+      "developers_contributing": 500
+    },
+    "Governance": {
+      "governance_proposals": 150,
+      "active_voters": 5000,
+      "proposals_passed": 120
+    },
+    "Events": {
+      "attendees": 20000,
+      "events_held": 15,
+      "speakers": 500
+    },
+    "DevCon": {
+      "attendees": 6000,
+      "speakers": 200,
+      "workshops": 50
     },
     "ETHCC": {
-        "funding": 2000000
+      "attendees": 8000,
+      "speakers": 250,
+      "sessions": 70
     },
-    "Devcon": {
-        "funding": 3000000
-    },
-    "Optimism": {
-        "funding": 12000000
-    },
-    "Arbitrum": {
-        "funding": 11000000
-    },
-    "StarkNet": {
-        "funding": 7000000
-    },
-    "Aztec": {
-        "funding": 6000000
-    },
-    "Rollup SDKs": {
-        "funding": 4000000
-    },
-    "Rollup Tooling": {
-        "funding": 5000000
-    },
-    "Eth Forums": {
-        "funding": 100000
+    "Forums": {
+      "active_users": 5000,
+      "topics": 1000
     },
     "Discord": {
-        "funding": 200000
+      "active_channels": 100,
+      "users_online": 3000
     },
-    "Twitter": {
-        "funding": 150000
+    "ETH Research": {
+      "members": 1500,
+      "discussions": 500,
+      "topics": 200
     },
     "Discourse": {
-        "funding": 120000
+      "posts": 10000,
+      "active_users": 2000
+    },
+    "ETH Magicians": {
+      "threads": 300,
+      "posts": 2000,
+      "active_members": 500
+    },
+    "Communication": {
+      "channels": 5,
+      "audience_reach": 500000
+    },
+    "Web": {
+      "sites": 3,
+      "monthly_visitors": 1000000
     },
     "Ethereum.org": {
-        "funding": 250000
+      "monthly_visitors": 800000,
+      "contributors": 50,
+      "page_views": 3000000
     },
-    "Block Explorers": {
-        "funding": 3500000
+    "L2 - Rollups": {
+      "tvl": 400000000,
+      "transactions": 1200000
+    },
+    "L2 Nodes": {
+      "active_nodes": 500,
+      "uptime_percentage": 99.7
+    },
+    "ZK Research": {
+      "research_papers": 50,
+      "active_researchers": 200,
+      "zk_proofs_developed": 10
+    },
+    "Explorers": {
+      "explorers_active": 5,
+      "daily_queries": 500000,
+      "uptime_percentage": 99.9
+    },
+    "Data Providers": {
+      "providers_active": 10,
+      "queries_per_day": 1000000,
+      "data_volume": "2 TB"
     }
-}
+  }
+  

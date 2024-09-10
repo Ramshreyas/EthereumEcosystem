@@ -1,22 +1,45 @@
 {
-    "L0 - Financial Layer": {
-        "Ethereum Mainnet": {},
-        "Proof of Stake": {}
-    },
-    "L1 - Financial Infrastructure": {
-        "DeFi Protocols": {
-            "Uniswap": {},
-            "Aave": {}
+    "L0 - Social Layer": {
+      "Events": {
+        "DevCon": {},
+        "ETHCC": {}
+      },
+      "Forums": {
+        "Discord": {
+          "ETH Research": {}
         },
-        "Node Infrastructure": {
-            "Geth": {},
-            "Parity": {}
+        "Discourse": {
+          "ETH Magicians": {}
         }
+      },
+      "Communication": {
+        "Web": {
+          "Ethereum.org": {}
+        }
+      }
     },
-    "L2 - Financial Scaling": {
-        "Rollups": {
-            "Optimism": {},
-            "Arbitrum": {}
+    "L1 - Base Layer": {
+      "Execution Layer": {
+        "Ethereum Mainnet": {
+          "DeFi": {},
+          "Infrastructure": {},
+          "Decentralized Identity": {},
+          "Gaming": {},
+          "Social Networks": {}
         }
+      },
+      "Consensus Layer": {
+        "Nodes": {},
+        "Tooling": {},
+        "Governance": {}
+      }
+    },
+    "L2 - Rollups": {
+      "L2 Nodes": {},
+      "ZK Research": {},
+      "Infrastructure": {},
+      "Explorers": {},
+      "Data Providers": {}
     }
 }
+  
