@@ -1,37 +1,95 @@
 {
     "Ethereum Mainnet": {
         "network_size": 10000,
-        "transaction_volume": 500000
+        "transaction_volume": 500000,
+        "funding": 20000000
     },
     "Proof of Stake": {
         "validators": 30000,
-        "staked_eth": 5000000
+        "staked_eth": 5000000,
+        "funding": 1000000
     },
     "EVM": {
         "gas_used": 80000000,
-        "transactions": 2000000
+        "transactions": 2000000,
+        "funding": 5000000
     },
     "ERC-20": {
-        "contract_count": 5000
+        "contract_count": 5000,
+        "funding": 300000
     },
     "ERC-721": {
-        "contract_count": 3000
+        "contract_count": 3000,
+        "funding": 200000
     },
     "Uniswap": {
         "liquidity_pools": 200,
-        "trading_volume": 100000000
+        "trading_volume": 100000000,
+        "funding": 15000000
     },
     "Aave": {
         "borrowers": 10000,
-        "loans_issued": 50000
+        "loans_issued": 50000,
+        "funding": 12000000
     },
     "Geth": {
-        "active_nodes": 5000
+        "active_nodes": 5000,
+        "funding": 8000000
     },
     "Parity": {
-        "active_nodes": 2000
+        "active_nodes": 2000,
+        "funding": 5000000
     },
     "Chainlink": {
-        "oracle_calls": 100000
+        "oracle_calls": 100000,
+        "funding": 10000000
+    },
+    "Hardhat": {
+        "funding": 3000000
+    },
+    "Remix": {
+        "funding": 2500000
+    },
+    "ETHCC": {
+        "funding": 2000000
+    },
+    "Devcon": {
+        "funding": 3000000
+    },
+    "Optimism": {
+        "funding": 12000000
+    },
+    "Arbitrum": {
+        "funding": 11000000
+    },
+    "StarkNet": {
+        "funding": 7000000
+    },
+    "Aztec": {
+        "funding": 6000000
+    },
+    "Rollup SDKs": {
+        "funding": 4000000
+    },
+    "Rollup Tooling": {
+        "funding": 5000000
+    },
+    "Eth Forums": {
+        "funding": 100000
+    },
+    "Discord": {
+        "funding": 200000
+    },
+    "Twitter": {
+        "funding": 150000
+    },
+    "Discourse": {
+        "funding": 120000
+    },
+    "Ethereum.org": {
+        "funding": 250000
+    },
+    "Block Explorers": {
+        "funding": 3500000
     }
 }

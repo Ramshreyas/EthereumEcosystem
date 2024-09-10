@@ -1,0 +1,22 @@
+{
+    "L0 - Financial Layer": {
+        "Ethereum Mainnet": {},
+        "Proof of Stake": {}
+    },
+    "L1 - Financial Infrastructure": {
+        "DeFi Protocols": {
+            "Uniswap": {},
+            "Aave": {}
+        },
+        "Node Infrastructure": {
+            "Geth": {},
+            "Parity": {}
+        }
+    },
+    "L2 - Financial Scaling": {
+        "Rollups": {
+            "Optimism": {},
+            "Arbitrum": {}
+        }
+    }
+}
