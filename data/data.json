@@ -195,6 +195,230 @@
       "providers_active": 10,
       "queries_per_day": 1000000,
       "data_volume": "2 TB"
+    },
+    "Ethereum Improvement Proposals (EIPs)": {
+      "proposals_submitted": 500,
+      "proposals_approved": 150
+    },
+    "Developer Community": {
+      "members": 3000,
+      "channels": 50
+    },
+    "Ecosystem Support": {
+      "initiatives_supported": 100,
+      "members": 800
+    },
+    "Solidity Developers": {
+      "members": 2500,
+      "projects_discussed": 150
+    },
+    "DeFi Community": {
+      "members": 3000,
+      "channels": 40
+    },
+    "NFT Creators": {
+      "members": 1500,
+      "nft_projects": 200
+    },
+    "Hardhat": {
+      "users": 20000,
+      "projects_built": 5000
+    },
+    "Truffle": {
+      "users": 18000,
+      "projects_built": 4500
+    },
+    "Remix": {
+      "users": 22000,
+      "contracts_deployed": 6000
+    },
+    "Foundry": {
+      "users": 15000,
+      "projects_built": 3000
+    },
+    "Brownie": {
+      "users": 12000,
+      "contracts_deployed": 2500
+    },
+    "Etherscan": {
+      "monthly_visitors": 5000000,
+      "transactions_tracked": 100000000
+    },
+    "BlockScout": {
+      "networks_supported": 30,
+      "transactions_tracked": 50000000
+    },
+    "Etherchain": {
+      "monthly_visitors": 2000000,
+      "blocks_explored": 800000
+    },
+    "Ethplorer": {
+      "tokens_tracked": 20000,
+      "transactions_analyzed": 10000000
+    },
+    "Bitquery": {
+      "data_providers": 50,
+      "api_calls_per_day": 1000000
+    },
+    "Goerli": {
+      "active_nodes": 100,
+      "transactions_per_day": 200000
+    },
+    "Rinkeby": {
+      "active_nodes": 80,
+      "transactions_per_day": 180000
+    },
+    "Kovan": {
+      "active_nodes": 60,
+      "transactions_per_day": 150000
+    },
+    "Ropsten": {
+      "active_nodes": 70,
+      "transactions_per_day": 160000
+    },
+    "Sepolia": {
+      "active_nodes": 90,
+      "transactions_per_day": 190000
+    },
+    "Optimism SDK": {
+      "developers_using": 5000,
+      "projects_created": 1000
+    },
+    "Arbitrum SDK": {
+      "developers_using": 4000,
+      "projects_created": 800
+    },
+    "zkSync SDK": {
+      "developers_using": 3500,
+      "projects_created": 700
+    },
+    "StarkNet": {
+      "developers_using": 3000,
+      "projects_created": 600
+    },
+    "Polygon SDK": {
+      "developers_using": 4500,
+      "projects_created": 900
+    },
+    "Optimistic Etherscan": {
+      "networks_supported": 1,
+      "transactions_tracked": 2000000
+    },
+    "Arbiscan": {
+      "networks_supported": 1,
+      "transactions_tracked": 1500000
+    },
+    "zkSync Explorer": {
+      "networks_supported": 1,
+      "transactions_tracked": 1000000
+    },
+    "StarkScan": {
+      "networks_supported": 1,
+      "transactions_tracked": 800000
+    },
+    "Polygon Explorer": {
+      "networks_supported": 1,
+      "transactions_tracked": 2500000
+    },
+    "Optimism Testnet": {
+      "active_nodes": 50,
+      "transactions_per_day": 100000
+    },
+    "Arbitrum Testnet": {
+      "active_nodes": 40,
+      "transactions_per_day": 80000
+    },
+    "zkSync Testnet": {
+      "active_nodes": 30,
+      "transactions_per_day": 60000
+    },
+    "StarkNet Testnet": {
+      "active_nodes": 20,
+      "transactions_per_day": 40000
+    },
+    "Polygon Testnet": {
+      "active_nodes": 60,
+      "transactions_per_day": 120000
+    },
+    "Development": {
+      "tools_available": 10,
+      "projects_created": 5000,
+      "developers_using": 20000
+    },
+    "L2 Development": {
+      "tools_available": 10,
+      "projects_created": 5000,
+      "developers_using": 20000
+    },
+    "Block Explorers": {
+      "explorers_available": 5,
+      "transactions_tracked": 8000000,
+      "networks_supported": 3
+    },
+    "L2 Block Explorers": {
+      "explorers_available": 5,
+      "transactions_tracked": 8000000,
+      "networks_supported": 3
+    },
+    "L2 Testnets": {
+      "active_nodes": 200,
+      "transactions_per_day": 400000,
+      "networks_tested": 5
+    },
+    "Wallets": {
+    "total_users": 2000000,
+    "transactions_per_month": 5000000,
+    "supported_tokens": 1000
+    },
+    "MetaMask": {
+      "active_users": 1000000,
+      "transactions_per_month": 2000000,
+      "supported_networks": 40
+    },
+    "Trust Wallet": {
+      "active_users": 500000,
+      "transactions_per_month": 1000000,
+      "supported_tokens": 500
+    },
+    "Rainbow": {
+      "active_users": 200000,
+      "transactions_per_month": 500000,
+      "supported_networks": 30
+    },
+    "Gnosis Safe": {
+      "active_users": 100000,
+      "transactions_per_month": 250000,
+      "multisig_wallets_created": 15000
+    },
+    "Argent": {
+      "active_users": 150000,
+      "transactions_per_month": 300000,
+      "security_features": 5
+    },
+    "A": {},
+    "B1": {
+      "Metric 1": 100,
+      "Metric 2": 200
+    },
+    "B2": {
+      "Metric 1": 100,
+      "Metric 2": 200
+    },
+    "C1": {
+      "Metric 1": 100,
+      "Metric 2": 200
+    },
+    "C2": {
+      "Metric 1": 150,
+      "Metric 2": 250
+    },
+    "C3": {
+      "Metric 1": 120,
+      "Metric 2": 180
+    },
+    "C4": {
+      "Metric 1": 130,
+      "Metric 2": 170
     }
-  }
+}
   

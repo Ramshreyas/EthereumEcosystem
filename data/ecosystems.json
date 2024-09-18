@@ -1,4 +1,6 @@
 {
     "Protocol Landscape": "protocol_structure.json",
-    "Funding Landscape": "financial_structure.json"
+    "Funding Landscape": "financial_structure.json",
+    "Tooling Landscape": "tooling_structure.json",
+    "Demo Landscape": "demo_structure.json"
 }

@@ -1,0 +1,74 @@
+{
+    "L0 - Social Layer": {
+      "Community": {
+        "Discourse": {
+          "ETH Magicians": {},
+          "Ethereum Improvement Proposals (EIPs)": {}
+        },
+        "Discord": {
+          "ETH Research": {},
+          "Developer Community": {},
+          "Ecosystem Support": {}
+        },
+        "Telegram": {
+          "Solidity Developers": {},
+          "DeFi Community": {},
+          "NFT Creators": {}
+        }
+      }
+    },
+    "L1 - Ethereum Mainnet": {
+      "Development": {
+        "Hardhat": {},
+        "Truffle": {},
+        "Remix": {},
+        "Foundry": {},
+        "Brownie": {}
+      },
+      "Block Explorers": {
+        "Etherscan": {},
+        "BlockScout": {},
+        "Etherchain": {},
+        "Ethplorer": {},
+        "Bitquery": {}
+      },
+      "Testnets": {
+        "Goerli": {},
+        "Rinkeby": {},
+        "Kovan": {},
+        "Ropsten": {},
+        "Sepolia": {}
+      },
+      "Wallets": {
+        "MetaMask": {},
+        "Trust Wallet": {},
+        "Rainbow": {},
+        "Gnosis Safe": {},
+        "Argent": {}
+      }
+    },
+    "L2 - Rollups": {
+      "L2 Development": {
+        "Optimism SDK": {},
+        "Arbitrum SDK": {},
+        "zkSync SDK": {},
+        "StarkNet": {},
+        "Polygon SDK": {}
+      },
+      "L2 Block Explorers": {
+        "Optimistic Etherscan": {},
+        "Arbiscan": {},
+        "zkSync Explorer": {},
+        "StarkScan": {},
+        "Polygon Explorer": {}
+      },
+      "L2 Testnets": {
+        "Optimism Testnet": {},
+        "Arbitrum Testnet": {},
+        "zkSync Testnet": {},
+        "StarkNet Testnet": {},
+        "Polygon Testnet": {}
+      }
+    }
+}
+  
