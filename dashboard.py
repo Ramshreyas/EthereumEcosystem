@@ -28,47 +28,99 @@ app = Dash(__name__)
 
 # Dash layout with dark mode styling and a dropdown
 app.layout = html.Div(
-    style={"backgroundColor": "#111111", "color": "white", "height": "100vh", "width": "100vw"},
+    style={"backgroundColor": "#111111", "color": "white", "height": "100vh", "width": "100vw", "overflow": "hidden"},
     children=[
         # Title and dropdown container
         html.Div(
-            style={"padding": "20px", "borderBottom": "1px solid #444", "display": "flex", "flexDirection": "column", "alignItems": "flex-start"},
+            style={
+                "padding": "20px", 
+                "borderBottom": "1px solid #444", 
+                "display": "flex", 
+                "flexDirection": "column", 
+                "alignItems": "flex-start",
+                "flexShrink": "0"
+            },
             children=[
-                # Title fixed as "Ethereum Ecosystem"
-                html.H1("Ethereum Ecosystem", id='dashboard-title', style={"margin": "0", "fontSize": "2rem", "fontWeight": "normal"}),
-                
-                # Dropdown positioned underneath the title
+                # Title
+                html.H1(
+                    "Ethereum Ecosystem", 
+                    id='dashboard-title', 
+                    style={"margin": "0", "fontSize": "2rem", "fontWeight": "normal"}
+                ),
+                # Dropdown
                 dcc.Dropdown(
                     id='ecosystem-dropdown',
                     options=[{"label": label, "value": filename} for label, filename in ecosystems.items()],
-                    value='protocol_structure.json',  # Default selection
+                    value='protocol_structure.json',
                     clearable=False,
-                    style={"backgroundColor": "#2222", "color": "black", "width": "300px", "padding-top": "10px"},
+                    style={
+                        "backgroundColor": "#2222", 
+                        "color": "black", 
+                        "width": "300px", 
+                        "paddingTop": "10px"
+                    },
                     className="dropdown-class"
                 )
             ]
         ),
-        
-        # Two columns: Treemap on the left, summary on the right (50% each)
+        # Main content area
         html.Div(
-            style={"display": "flex", "flexDirection": "row", "padding": "20px"},
+            style={
+                "display": "flex", 
+                "flexDirection": "row", 
+                "flexGrow": "1",
+                "height": "calc(100vh - 80px)"
+            },
             children=[
-                # Treemap Column (50% width)
+                # Treemap Column with Fullscreen Button
                 html.Div(
-                    style={"width": "50%", "paddingRight": "20px"},
+                    style={"position": "relative", "flex": "1", "padding": "20px"},
                     children=[
-                        dcc.Graph(id='treemap-chart', 
-                                  style={"height": "800px"}, 
-                                  config={"displayModeBar": True, 
-                                          "modeBarButtonsToAdd": ["toggleFullscreen"]})
+                        # Fullscreen Button
+                        html.Button(
+                            "Fullscreen",
+                            id='fullscreen-button',
+                            style={
+                                "position": "absolute",
+                                "top": "10px",
+                                "right": "10px",
+                                "zIndex": "1000",
+                                "padding": "10px 15px",
+                                "backgroundColor": "#444",
+                                "color": "white",
+                                "border": "none",
+                                "borderRadius": "5px",
+                                "cursor": "pointer",
+                                "fontSize": "14px"
+                            }
+                        ),
+                        # Treemap Graph
+                        dcc.Graph(
+                            id='treemap-chart',
+                            style={"height": "100%", "width": "100%"},
+                            config={
+                                "displayModeBar": True,
+                                "responsive": True
+                            }
+                        )
                     ]
                 ),
-                
-                # Summary Column (50% width)
+                # Summary Column
                 html.Div(
-                    style={"width": "50%", "paddingLeft": "20px", "backgroundColor": "#222", "borderRadius": "10px"},
+                    id='summary-column',
+                    style={
+                        "flex": "1", 
+                        "padding": "20px", 
+                        "backgroundColor": "#222", 
+                        "borderRadius": "10px", 
+                        "overflowY": "auto"
+                    },
                     children=[
-                        html.H3(id="summary-title", style={"textAlign": "center", "fontSize": "1.5rem", "fontWeight": "normal"}, children="Data Summary"),
+                        html.H3(
+                            id="summary-title", 
+                            style={"textAlign": "center", "fontSize": "1.5rem", "fontWeight": "normal"}, 
+                            children="Data Summary"
+                        ),
                         html.Div(
                             id='node-info',
                             style={"padding": "10px", "backgroundColor": "#333", "borderRadius": "10px"},
@@ -80,6 +132,7 @@ app.layout = html.Div(
         )
     ]
 )
+
 
 # Callback to update the dashboard title and load the selected ecosystem structure
 @app.callback(
