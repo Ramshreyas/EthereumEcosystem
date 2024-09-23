@@ -118,6 +118,10 @@
       "tools_available": 25,
       "developers_contributing": 500
     },
+    "Tooling Ecosystem": {
+      "tools_available": 25,
+      "developers_contributing": 500
+    },
     "Governance": {
       "governance_proposals": 150,
       "active_voters": 5000,
@@ -419,6 +423,237 @@
     "C4": {
       "Metric 1": 130,
       "Metric 2": 170
-    }
+    },
+    "Geth": {
+      "active_nodes": 10000,
+      "versions_supported": 20
+    },
+    "Erigon": {
+      "active_nodes": 5000,
+      "versions_supported": 15
+    },
+    "Besu": {
+      "active_nodes": 3000,
+      "versions_supported": 10
+    },
+    "Nethermind": {
+      "active_nodes": 2500,
+      "versions_supported": 12
+    },
+    "Prysm": {
+      "validators": 100000,
+      "uptime": 99.9
+    },
+    "Lighthouse": {
+      "validators": 80000,
+      "uptime": 99.8
+    },
+    "Teku": {
+      "validators": 60000,
+      "uptime": 99.7
+    },
+    "Nimbus": {
+      "validators": 50000,
+      "uptime": 99.6
+    },
+    "Infura": {
+      "requests_per_day": 2000000,
+      "projects_supported": 10000
+    },
+    "Alchemy": {
+      "requests_per_day": 1500000,
+      "projects_supported": 8000
+    },
+    "QuickNode": {
+      "requests_per_day": 1000000,
+      "projects_supported": 5000
+    },
+    "Blockdaemon": {
+      "nodes_managed": 12000,
+      "blockchains_supported": 50
+    },
+    "Lido": {
+      "validators": 200000,
+      "stake_locked": 5000000
+    },
+    "Rocket Pool": {
+      "validators": 150000,
+      "stake_locked": 3000000
+    },
+    "Stakefish": {
+      "validators": 100000,
+      "stake_locked": 2000000
+    },
+    "Stereum": {
+      "validators_supported": 100000,
+      "uptime": 99.5
+    },
+    "Obol Network": {
+      "slashing_incidents_prevented": 100,
+      "validators_protected": 5000
+    },
+    "libp2p": {
+      "networks_supported": 30,
+      "nodes_connected": 50000
+    },
+    "devp2p": {
+      "networks_supported": 20,
+      "nodes_connected": 30000
+    },
+    "Waku": {
+      "networks_supported": 10,
+      "nodes_connected": 15000
+    },
+    "Discovery v5": {
+      "networks_supported": 15,
+      "nodes_connected": 20000
+    },
+    "OP Stack": {
+      "transactions_per_day": 50000,
+      "developers_using": 2000
+    },
+    "Arbitrum Nitro": {
+      "transactions_per_day": 40000,
+      "developers_using": 1500
+    },
+    "zkSync": {
+      "transactions_per_day": 30000,
+      "projects_built": 1000
+    },
+    "Loopring": {
+      "transactions_per_day": 20000,
+      "projects_built": 800
+    },
+    "OMG Network": {
+      "tvl": 1000000,
+      "transactions_per_day": 10000
+    },
+    "Raiden Network": {
+      "channels_opened": 5000,
+      "transactions_per_day": 8000
+    },
+    "Connext": {
+      "channels_opened": 4000,
+      "transactions_per_day": 7000
+    },
+    "Polygon": {
+      "tvl": 50000000,
+      "transactions_per_day": 100000
+    },
+    "xDAI": {
+      "tvl": 20000000,
+      "transactions_per_day": 50000
+    },
+    "Celestia": {
+      "data_blocks_processed": 500000,
+      "uptime_percentage": 99.9
+    },
+    "Arweave": {
+      "data_stored": "50 TB",
+      "nodes": 3000
+    },
+    "Filecoin": {
+      "data_stored": "100 TB",
+      "nodes": 5000
+    },
+    "IPFS": {
+      "data_stored": "200 TB",
+      "nodes": 8000
+    },
+    "Hop Protocol": {
+      "transactions": 10000,
+      "liquidity_provided": 5000000
+    },
+    "Synapse": {
+      "transactions": 8000,
+      "liquidity_provided": 4000000
+    },
+    "Anyswap": {
+      "transactions": 6000,
+      "liquidity_provided": 3000000
+    },
+    "RenBridge": {
+      "transactions": 4000,
+      "liquidity_provided": 2000000
+    },
+    "LayerZero": {
+      "integrations": 50,
+      "transactions_per_day": 20000
+    },
+    "Axelar": {
+      "integrations": 40,
+      "transactions_per_day": 15000
+    },
+    "Polkadot Parachains": {
+      "parachains_supported": 30,
+      "tvl": 100000000
+    },
+    "Cosmos IBC": {
+      "chains_connected": 40,
+      "transactions_per_day": 25000
+    },
+    "MythX": {
+      "contracts_analyzed": 5000,
+      "vulnerabilities_found": 300
+    },
+    "Slither": {
+      "contracts_analyzed": 4000,
+      "vulnerabilities_found": 250
+    },
+    "Certora": {
+      "contracts_verified": 3000,
+      "vulnerabilities_found": 100
+    },
+    "ConsenSys Diligence": {
+      "contracts_analyzed": 6000,
+      "vulnerabilities_found": 400
+    },
+    "K Framework": {
+      "formal_proofs_completed": 100,
+      "contracts_verified": 500
+    },
+    "Chainlink": {
+      "oracle_calls_per_day": 200000,
+      "data_feeds": 1000
+    },
+    "UMA": {
+      "oracle_calls_per_day": 100000,
+      "data_feeds": 500
+    },
+    "Band Protocol": {
+      "oracle_calls_per_day": 80000,
+      "data_feeds": 400
+    },
+    "The Graph": {
+      "subgraphs_deployed": 3000,
+      "queries_per_day": 1000000
+    },
+    "Tellor": {
+      "oracle_calls_per_day": 50000,
+      "data_feeds": 200
+    },
+    "Aragon": {
+      "governance_proposals": 500,
+      "active_daos": 200
+    },
+    "Snapshot": {
+      "proposals_voted": 1000,
+      "users_participating": 10000
+    },
+    "EIP Repository": {
+      "eips_submitted": 500,
+      "eips_approved": 200
+    },
+    "Ethereum Magicians Forum": {
+      "topics_discussed": 1000,
+      "members": 5000
+    },
+    "Eth1 Fork Coordination": {
+      "forks_managed": 5,
+      "participation_rate": 99.5
+    },
+    "Eth2 Fork Coordination": {
+      "forks_managed": 3,
+      "participation_rate": 99.8
+    }    
 }
-  

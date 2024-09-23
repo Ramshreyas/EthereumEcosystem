@@ -1,74 +1,128 @@
 {
-    "L0 - Social Layer": {
-      "Community": {
-        "Discourse": {
-          "ETH Magicians": {},
-          "Ethereum Improvement Proposals (EIPs)": {}
+  "Tooling Ecosystem": {
+    "Consensus And Nodes": {
+      "Clients": {
+        "Execution Clients": {
+          "Geth": {},
+          "Erigon": {},
+          "Besu": {},
+          "Nethermind": {}
         },
-        "Discord": {
-          "ETH Research": {},
-          "Developer Community": {},
-          "Ecosystem Support": {}
-        },
-        "Telegram": {
-          "Solidity Developers": {},
-          "DeFi Community": {},
-          "NFT Creators": {}
+        "Consensus Clients": {
+          "Prysm": {},
+          "Lighthouse": {},
+          "Teku": {},
+          "Nimbus": {}
         }
+      },
+      "Node Infrastructure": {
+        "Infura": {},
+        "Alchemy": {},
+        "QuickNode": {},
+        "Blockdaemon": {}
+      },
+      "Validator Infrastructure": {
+        "Staking Tools": {
+          "Lido": {},
+          "Rocket Pool": {},
+          "Stakefish": {},
+          "Stereum": {}
+        },
+        "Slashing Protection": {
+          "Obol Network": {},
+          "Stereum": {}
+        }
+      },
+      "Networking And Gossip": {
+        "libp2p": {},
+        "devp2p": {},
+        "Waku": {},
+        "Discovery v5": {}
       }
     },
-    "L1 - Ethereum Mainnet": {
-      "Development": {
-        "Hardhat": {},
-        "Truffle": {},
-        "Remix": {},
-        "Foundry": {},
-        "Brownie": {}
+    "Scaling And Layer 2": {
+      "Rollups": {
+        "Optimistic Rollups": {
+          "OP Stack": {},
+          "Arbitrum Nitro": {}
+        },
+        "ZK Rollups": {
+          "zkSync": {},
+          "StarkNet": {},
+          "Loopring": {}
+        }
       },
-      "Block Explorers": {
-        "Etherscan": {},
-        "BlockScout": {},
-        "Etherchain": {},
-        "Ethplorer": {},
-        "Bitquery": {}
+      "Plasma": {
+        "OMG Network": {}
       },
-      "Testnets": {
-        "Goerli": {},
-        "Rinkeby": {},
-        "Kovan": {},
-        "Ropsten": {},
-        "Sepolia": {}
+      "State Channels": {
+        "Raiden Network": {},
+        "Connext": {}
       },
-      "Wallets": {
-        "MetaMask": {},
-        "Trust Wallet": {},
-        "Rainbow": {},
+      "Sidechains": {
+        "Polygon": {},
+        "xDAI": {}
+      },
+      "Data Availability Layers": {
+        "Celestia": {}
+      },
+      "Blockchain Storage": {
+        "Arweave": {},
+        "Filecoin": {},
+        "IPFS": {}
+      }
+    },
+    "Cross Chain And Interoperability": {
+      "Cross Chain Bridges": {
+        "Hop Protocol": {},
+        "Synapse": {},
+        "Anyswap": {},
+        "RenBridge": {}
+      },
+      "Interoperability Protocols": {
+        "LayerZero": {},
+        "Axelar": {},
+        "Polkadot Parachains": {},
+        "Cosmos IBC": {}
+      }
+    },
+    "Security And Auditing": {
+      "Auditing Tools": {
+        "MythX": {},
+        "Slither": {},
+        "Certora": {},
+        "ConsenSys Diligence": {}
+      },
+      "Formal Verification": {
+        "K Framework": {},
+        "Certora": {}
+      }
+    },
+    "Oracles And Off Chain Data": {
+      "Oracles": {
+        "Chainlink": {},
+        "UMA": {},
+        "Band Protocol": {}
+      },
+      "On Chain Data Availability": {
+        "The Graph": {},
+        "Tellor": {}
+      }
+    },
+    "Governance And Protocol Upgrades": {
+      "Protocol Governance Tools": {
+        "Aragon": {},
         "Gnosis Safe": {},
-        "Argent": {}
-      }
-    },
-    "L2 - Rollups": {
-      "L2 Development": {
-        "Optimism SDK": {},
-        "Arbitrum SDK": {},
-        "zkSync SDK": {},
-        "StarkNet": {},
-        "Polygon SDK": {}
+        "Snapshot": {}
       },
-      "L2 Block Explorers": {
-        "Optimistic Etherscan": {},
-        "Arbiscan": {},
-        "zkSync Explorer": {},
-        "StarkScan": {},
-        "Polygon Explorer": {}
+      "EIP Management": {
+        "EIP Repository": {},
+        "Ethereum Magicians Forum": {}
       },
-      "L2 Testnets": {
-        "Optimism Testnet": {},
-        "Arbitrum Testnet": {},
-        "zkSync Testnet": {},
-        "StarkNet Testnet": {},
-        "Polygon Testnet": {}
+      "Fork Coordination And Infrastructure": {
+        "Eth1 Fork Coordination": {},
+        "Eth2 Fork Coordination": {}
       }
     }
+  }
 }
-  

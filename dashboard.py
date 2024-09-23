@@ -57,7 +57,10 @@ app.layout = html.Div(
                 html.Div(
                     style={"width": "50%", "paddingRight": "20px"},
                     children=[
-                        dcc.Graph(id='treemap-chart', style={"height": "800px"})
+                        dcc.Graph(id='treemap-chart', 
+                                  style={"height": "800px"}, 
+                                  config={"displayModeBar": True, 
+                                          "modeBarButtonsToAdd": ["toggleFullscreen"]})
                     ]
                 ),
                 
